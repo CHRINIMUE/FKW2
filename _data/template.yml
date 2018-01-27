@@ -1,0 +1,9 @@
+color:
+  logo: ffcc00
+  logo-light: ffe680
+  logo-dark: 4d4d4d
+  white: ffffff
+nav:
+  transparent: fff0
+  top: fff8
+  down: fffc

@@ -2,3 +2,7 @@
 {% include css/cover.css %}
 {% include css/login.css %}
 {% include css/top.css %}
+{% include css/bereiche_detail.css %}
+{% include css/bereiche_ubersicht.css %}
+{% include css/warning.css %}
+{% include css/footer.css %}

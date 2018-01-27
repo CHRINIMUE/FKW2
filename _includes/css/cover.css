@@ -1,7 +1,6 @@
 
 .cover {
     text-align: left;
-    color: #fff;
     background-attachment: scroll;
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.23)), url('{{site.baseurl}}/img/start.jpg');
     background-position: center center;
@@ -16,12 +15,11 @@
 .cover .intro-text {
   text-align: left;
   padding-top: 25%;
-  color: white;
+  color: #{{site.data.template.color.white}};
 }
 
 .cover .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
@@ -30,7 +28,6 @@
 .cover .intro-text .intro-heading {
     margin-bottom: 50px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -44,7 +41,6 @@
 
 .cover .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -53,7 +49,6 @@
 .cover .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
